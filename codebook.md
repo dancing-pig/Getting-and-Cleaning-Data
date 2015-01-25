@@ -1,5 +1,4 @@
 # Code Book
-================
 
 ## Introduction
 The R script in the directory is used to analyze text files from accelerometers from the Samsung Galaxy S smartphone and generate a tidy data set.
@@ -21,7 +20,7 @@ Here, I merge the test set and the train set, and mainly focus on the mean and s
 ## Result
 tidy_data.txt  
 1. subject: represent diffenrent subjects, range from 1 to 30.  
-2. label: represent labels of 6 different activities.
+2. label: represent labels of 6 different activities.  
 3. features: represent mean or standard error of different features.
 
 

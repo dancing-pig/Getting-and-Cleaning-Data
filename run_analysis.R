@@ -1,6 +1,8 @@
 # Function that reads data from multiple txt files from accelerometers
 # from the Samsung Galaxy S smartphone and generate a tidy data set.
 run_analysis <- function() {
+    library(plyr)
+
     ## Suppose that now the current directory is in UCI HAR Dataset.
     
     ## Read the text files and rename the headers.
